@@ -3,17 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521FA54E225B0F520073945F /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521FA54D225B0F520073945F /* UserManager.swift */; };
+		521FA550225B0F630073945F /* WashRoomDiatailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521FA54F225B0F630073945F /* WashRoomDiatailVC.swift */; };
+		521FA552225B0F6B0073945F /* RateABathroomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521FA551225B0F6B0073945F /* RateABathroomVC.swift */; };
+		521FA556225C56390073945F /* StartChatWithFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521FA555225C56380073945F /* StartChatWithFriend.swift */; };
+		521FA558225C66D50073945F /* ShowActivityAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521FA557225C66D40073945F /* ShowActivityAnimation.swift */; };
+		521FA594225CA06F0073945F /* AllContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521FA593225CA06F0073945F /* AllContactsVC.swift */; };
+		521FA596225DF6700073945F /* ToiletSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521FA595225DF66F0073945F /* ToiletSound.mp3 */; };
 		526F9A12223A600100CACCB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F9A11223A600100CACCB8 /* AppDelegate.swift */; };
-		526F9A14223A600100CACCB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F9A13223A600100CACCB8 /* ViewController.swift */; };
 		526F9A17223A600100CACCB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526F9A15223A600100CACCB8 /* Main.storyboard */; };
 		526F9A19223A600300CACCB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526F9A18223A600300CACCB8 /* Assets.xcassets */; };
 		526F9A1C223A600300CACCB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526F9A1A223A600300CACCB8 /* LaunchScreen.storyboard */; };
-		526F9A27223A600300CACCB8 /* PottyBreakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F9A26223A600300CACCB8 /* PottyBreakTests.swift */; };
-		526F9A32223A600300CACCB8 /* PottyBreakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F9A31223A600300CACCB8 /* PottyBreakUITests.swift */; };
+		526F9A42223A615200CACCB8 /* DesigningFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F9A41223A615200CACCB8 /* DesigningFile.swift */; };
+		526F9A44223A616D00CACCB8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F9A43223A616D00CACCB8 /* LoginVC.swift */; };
+		526F9A48223A6AC600CACCB8 /* CustomLounchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F9A47223A6AC600CACCB8 /* CustomLounchScreenVC.swift */; };
+		5286B70D22547299001A17E9 /* Toilet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5286B70B22547299001A17E9 /* Toilet.swift */; };
+		5286B70E22547299001A17E9 /* GoogleDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5286B70C22547299001A17E9 /* GoogleDataFetcher.swift */; };
+		5293F139229BB7940019BA95 /* WashRoomImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5293F138229BB7940019BA95 /* WashRoomImageVC.swift */; };
+		921B151C2254BA5B0047A11D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B15192254BA570047A11D /* Message.swift */; };
+		921B151D2254BA5B0047A11D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B151A2254BA580047A11D /* User.swift */; };
+		921B151E2254BA5B0047A11D /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B151B2254BA5A0047A11D /* Chat.swift */; };
+		921B15272254BD570047A11D /* MyChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B15252254BD530047A11D /* MyChatViewController.swift */; };
+		921B15282254BD570047A11D /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B15262254BD560047A11D /* ChatTableViewController.swift */; };
+		921B152A2254BDB60047A11D /* UserDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B15292254BDB60047A11D /* UserDetailsTableViewCell.swift */; };
+		921B15302254DFBA0047A11D /* UIViewController+childViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B152E2254DFB70047A11D /* UIViewController+childViewController.swift */; };
+		921B15312254DFBA0047A11D /* Array+toDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B152F2254DFBA0047A11D /* Array+toDictionary.swift */; };
+		921B2AE122571C010039953E /* SearchBathRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B2ADD22571BFC0039953E /* SearchBathRoomVC.swift */; };
+		921B2AE322571C010039953E /* RefineSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B2ADF22571BFE0039953E /* RefineSearchVC.swift */; };
+		921B2AE622571D420039953E /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B2AE522571D410039953E /* Rating.swift */; };
+		921B2AE82257627E0039953E /* UserCurrentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B2AE72257627E0039953E /* UserCurrentLocation.swift */; };
+		921B2AEA22576C320039953E /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B2AE922576C320039953E /* HomeScreenVC.swift */; };
+		921B2AEC2257811E0039953E /* ViewArticleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921B2AEB2257811E0039953E /* ViewArticleDetail.swift */; };
+		9222EE97229D3CE200FDF153 /* ArticleHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9222EE96229D3CE200FDF153 /* ArticleHeader.xib */; };
+		9229AF6D229FEF2E002115A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9229AF6C229FEF2C002115A5 /* Assets.xcassets */; };
+		9229AF76229FF0A5002115A5 /* GamePlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9229AF6E229FF09E002115A5 /* GamePlayVC.swift */; };
+		9229AF77229FF0A5002115A5 /* GameStartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9229AF6F229FF09F002115A5 /* GameStartVC.swift */; };
+		9229AF78229FF0A5002115A5 /* GameMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9229AF70229FF0A0002115A5 /* GameMainVC.swift */; };
+		9229AF79229FF0A5002115A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9229AF71229FF0A1002115A5 /* ViewController.swift */; };
+		9229AF7A229FF0A5002115A5 /* Pencil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9229AF72229FF0A2002115A5 /* Pencil.swift */; };
+		9229AF7B229FF0A5002115A5 /* GalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9229AF73229FF0A3002115A5 /* GalleryVC.swift */; };
+		9229AF7C229FF0A5002115A5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9229AF74229FF0A4002115A5 /* SettingsViewController.swift */; };
+		9229AF7D229FF0A5002115A5 /* SubmitPopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9229AF75229FF0A5002115A5 /* SubmitPopVC.swift */; };
+		9230AEF1228434D800936DB7 /* PopUpRatingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9230AEF0228434D800936DB7 /* PopUpRatingVC.swift */; };
+		9237F128229E5D6900A8BBD5 /* daily-deuce-title@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9237F127229E5D6800A8BBD5 /* daily-deuce-title@3x.png */; };
+		926BEDFF2294D87F0052DD51 /* PopUpFactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926BEDFE2294D87F0052DD51 /* PopUpFactVC.swift */; };
+		92CC3EDA2255C9B800A981C1 /* GetDirectionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CC3ED92255C9B800A981C1 /* GetDirectionsVC.swift */; };
+		92CC3EDE2256008300A981C1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CC3EDD2256008300A981C1 /* SwiftyJSON.swift */; };
+		92E126E722A52494004A2D8E /* ImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E126E622A52493004A2D8E /* ImageVC.swift */; };
+		92E26FA222A12DE200B0A0CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92E26FA122A12DE200B0A0CB /* GoogleService-Info.plist */; };
+		92E26FA522A144D900B0A0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E26FA422A144D700B0A0CB /* Assets.xcassets */; };
+		92E26FAA22A1461900B0A0CB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E26FA622A1461500B0A0CB /* GameScene.swift */; };
+		92E26FAB22A1461900B0A0CB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 92E26FA722A1461600B0A0CB /* GameScene.sks */; };
+		92E26FAC22A1461900B0A0CB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 92E26FA822A1461700B0A0CB /* Actions.sks */; };
+		92E26FAD22A1461900B0A0CB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E26FA922A1461900B0A0CB /* GameViewController.swift */; };
+		92E45110229D0F7E00D465D7 /* ArticleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4510F229D0F7E00D465D7 /* ArticleVC.swift */; };
+		975A97B7FE5FE53E5B66F134 /* Pods_PottyBreak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EA8D529A0B6B39FBBB1A2A /* Pods_PottyBreak.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +82,68 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11F037FBC7E34755B9EB2689 /* Pods-PottyBreak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PottyBreak.debug.xcconfig"; path = "Target Support Files/Pods-PottyBreak/Pods-PottyBreak.debug.xcconfig"; sourceTree = "<group>"; };
+		242B6EA39AEB65CBB455BD38 /* Pods-PottyBreak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PottyBreak.release.xcconfig"; path = "Target Support Files/Pods-PottyBreak/Pods-PottyBreak.release.xcconfig"; sourceTree = "<group>"; };
+		521FA54D225B0F520073945F /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		521FA54F225B0F630073945F /* WashRoomDiatailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WashRoomDiatailVC.swift; sourceTree = "<group>"; };
+		521FA551225B0F6B0073945F /* RateABathroomVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateABathroomVC.swift; sourceTree = "<group>"; };
+		521FA555225C56380073945F /* StartChatWithFriend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartChatWithFriend.swift; sourceTree = "<group>"; };
+		521FA557225C66D40073945F /* ShowActivityAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowActivityAnimation.swift; sourceTree = "<group>"; };
+		521FA593225CA06F0073945F /* AllContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllContactsVC.swift; sourceTree = "<group>"; };
+		521FA595225DF66F0073945F /* ToiletSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ToiletSound.mp3; sourceTree = "<group>"; };
 		526F9A0E223A600100CACCB8 /* PottyBreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PottyBreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		526F9A11223A600100CACCB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		526F9A13223A600100CACCB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		526F9A16223A600100CACCB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		526F9A18223A600300CACCB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		526F9A1B223A600300CACCB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		526F9A1D223A600300CACCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		526F9A22223A600300CACCB8 /* PottyBreakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PottyBreakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		526F9A26223A600300CACCB8 /* PottyBreakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PottyBreakTests.swift; sourceTree = "<group>"; };
-		526F9A28223A600300CACCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		526F9A2D223A600300CACCB8 /* PottyBreakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PottyBreakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		526F9A31223A600300CACCB8 /* PottyBreakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PottyBreakUITests.swift; sourceTree = "<group>"; };
-		526F9A33223A600300CACCB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526F9A41223A615200CACCB8 /* DesigningFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesigningFile.swift; sourceTree = "<group>"; };
+		526F9A43223A616D00CACCB8 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		526F9A47223A6AC600CACCB8 /* CustomLounchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLounchScreenVC.swift; sourceTree = "<group>"; };
+		5286B70B22547299001A17E9 /* Toilet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toilet.swift; sourceTree = "<group>"; };
+		5286B70C22547299001A17E9 /* GoogleDataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataFetcher.swift; sourceTree = "<group>"; };
+		5293F138229BB7940019BA95 /* WashRoomImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashRoomImageVC.swift; sourceTree = "<group>"; };
+		921B15192254BA570047A11D /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		921B151A2254BA580047A11D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		921B151B2254BA5A0047A11D /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		921B15252254BD530047A11D /* MyChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyChatViewController.swift; sourceTree = "<group>"; };
+		921B15262254BD560047A11D /* ChatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
+		921B15292254BDB60047A11D /* UserDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		921B152E2254DFB70047A11D /* UIViewController+childViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+childViewController.swift"; sourceTree = "<group>"; };
+		921B152F2254DFBA0047A11D /* Array+toDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+toDictionary.swift"; sourceTree = "<group>"; };
+		921B2ADD22571BFC0039953E /* SearchBathRoomVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBathRoomVC.swift; sourceTree = "<group>"; };
+		921B2ADF22571BFE0039953E /* RefineSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefineSearchVC.swift; sourceTree = "<group>"; };
+		921B2AE522571D410039953E /* Rating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		921B2AE72257627E0039953E /* UserCurrentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCurrentLocation.swift; sourceTree = "<group>"; };
+		921B2AE922576C320039953E /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
+		921B2AEB2257811E0039953E /* ViewArticleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewArticleDetail.swift; sourceTree = "<group>"; };
+		9222013B22A1174100112C0B /* PottyBreak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PottyBreak.entitlements; sourceTree = "<group>"; };
+		9222EE96229D3CE200FDF153 /* ArticleHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleHeader.xib; sourceTree = "<group>"; };
+		9229AF6C229FEF2C002115A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9229AF6E229FF09E002115A5 /* GamePlayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayVC.swift; sourceTree = "<group>"; };
+		9229AF6F229FF09F002115A5 /* GameStartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStartVC.swift; sourceTree = "<group>"; };
+		9229AF70229FF0A0002115A5 /* GameMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMainVC.swift; sourceTree = "<group>"; };
+		9229AF71229FF0A1002115A5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9229AF72229FF0A2002115A5 /* Pencil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pencil.swift; sourceTree = "<group>"; };
+		9229AF73229FF0A3002115A5 /* GalleryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryVC.swift; sourceTree = "<group>"; };
+		9229AF74229FF0A4002115A5 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9229AF75229FF0A5002115A5 /* SubmitPopVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitPopVC.swift; sourceTree = "<group>"; };
+		9229AF82229FF465002115A5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9230AEF0228434D800936DB7 /* PopUpRatingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpRatingVC.swift; sourceTree = "<group>"; };
+		9237F127229E5D6800A8BBD5 /* daily-deuce-title@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "daily-deuce-title@3x.png"; path = "Assets.xcassets/daily-deuce-title.imageset/daily-deuce-title@3x.png"; sourceTree = "<group>"; };
+		926BEDFE2294D87F0052DD51 /* PopUpFactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpFactVC.swift; sourceTree = "<group>"; };
+		92CC3ED92255C9B800A981C1 /* GetDirectionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDirectionsVC.swift; sourceTree = "<group>"; };
+		92CC3EDD2256008300A981C1 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		92E126E622A52493004A2D8E /* ImageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageVC.swift; sourceTree = "<group>"; };
+		92E26FA122A12DE200B0A0CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		92E26FA422A144D700B0A0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92E26FA622A1461500B0A0CB /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		92E26FA722A1461600B0A0CB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		92E26FA822A1461700B0A0CB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		92E26FA922A1461900B0A0CB /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		92E4510F229D0F7E00D465D7 /* ArticleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleVC.swift; sourceTree = "<group>"; };
+		C7EA8D529A0B6B39FBBB1A2A /* Pods_PottyBreak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PottyBreak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975A97B7FE5FE53E5B66F134 /* Pods_PottyBreak.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +172,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F07E2D52BE16D8E9E9A5E1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11F037FBC7E34755B9EB2689 /* Pods-PottyBreak.debug.xcconfig */,
+				242B6EA39AEB65CBB455BD38 /* Pods-PottyBreak.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		526F9A05223A600100CACCB8 = {
 			isa = PBXGroup;
 			children = (
 				526F9A10223A600100CACCB8 /* PottyBreak */,
-				526F9A25223A600300CACCB8 /* PottyBreakTests */,
-				526F9A30223A600300CACCB8 /* PottyBreakUITests */,
 				526F9A0F223A600100CACCB8 /* Products */,
+				2F07E2D52BE16D8E9E9A5E1A /* Pods */,
+				EB79B6B148B8926CF32BF884 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,32 +204,128 @@
 		526F9A10223A600100CACCB8 /* PottyBreak */ = {
 			isa = PBXGroup;
 			children = (
+				9222013B22A1174100112C0B /* PottyBreak.entitlements */,
+				9229AF6A229FEEFA002115A5 /* Games */,
+				9237F127229E5D6800A8BBD5 /* daily-deuce-title@3x.png */,
+				921B152D2254DF870047A11D /* Addition */,
+				5286B70A22547299001A17E9 /* Model */,
+				526F9A40223A613600CACCB8 /* Designing File */,
+				526F9A3F223A612D00CACCB8 /* Controllers */,
 				526F9A11223A600100CACCB8 /* AppDelegate.swift */,
-				526F9A13223A600100CACCB8 /* ViewController.swift */,
 				526F9A15223A600100CACCB8 /* Main.storyboard */,
-				526F9A18223A600300CACCB8 /* Assets.xcassets */,
+				9222EE96229D3CE200FDF153 /* ArticleHeader.xib */,
 				526F9A1A223A600300CACCB8 /* LaunchScreen.storyboard */,
-				526F9A1D223A600300CACCB8 /* Info.plist */,
+				526F9A18223A600300CACCB8 /* Assets.xcassets */,
+				92E26FA122A12DE200B0A0CB /* GoogleService-Info.plist */,
+				9229AF82229FF465002115A5 /* Info.plist */,
+				521FA595225DF66F0073945F /* ToiletSound.mp3 */,
 			);
 			path = PottyBreak;
 			sourceTree = "<group>";
 		};
-		526F9A25223A600300CACCB8 /* PottyBreakTests */ = {
+		526F9A3F223A612D00CACCB8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				526F9A26223A600300CACCB8 /* PottyBreakTests.swift */,
-				526F9A28223A600300CACCB8 /* Info.plist */,
+				521FA54F225B0F630073945F /* WashRoomDiatailVC.swift */,
+				521FA551225B0F6B0073945F /* RateABathroomVC.swift */,
+				921B2ADF22571BFE0039953E /* RefineSearchVC.swift */,
+				921B2ADD22571BFC0039953E /* SearchBathRoomVC.swift */,
+				521FA593225CA06F0073945F /* AllContactsVC.swift */,
+				921B15262254BD560047A11D /* ChatTableViewController.swift */,
+				921B15252254BD530047A11D /* MyChatViewController.swift */,
+				526F9A43223A616D00CACCB8 /* LoginVC.swift */,
+				526F9A47223A6AC600CACCB8 /* CustomLounchScreenVC.swift */,
+				92CC3EDD2256008300A981C1 /* SwiftyJSON.swift */,
+				92CC3ED92255C9B800A981C1 /* GetDirectionsVC.swift */,
+				921B2AE922576C320039953E /* HomeScreenVC.swift */,
+				921B2AEB2257811E0039953E /* ViewArticleDetail.swift */,
+				521FA555225C56380073945F /* StartChatWithFriend.swift */,
+				521FA557225C66D40073945F /* ShowActivityAnimation.swift */,
+				9230AEF0228434D800936DB7 /* PopUpRatingVC.swift */,
+				926BEDFE2294D87F0052DD51 /* PopUpFactVC.swift */,
+				5293F138229BB7940019BA95 /* WashRoomImageVC.swift */,
+				92E4510F229D0F7E00D465D7 /* ArticleVC.swift */,
 			);
-			path = PottyBreakTests;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		526F9A30223A600300CACCB8 /* PottyBreakUITests */ = {
+		526F9A40223A613600CACCB8 /* Designing File */ = {
 			isa = PBXGroup;
 			children = (
-				526F9A31223A600300CACCB8 /* PottyBreakUITests.swift */,
-				526F9A33223A600300CACCB8 /* Info.plist */,
+				921B15292254BDB60047A11D /* UserDetailsTableViewCell.swift */,
+				526F9A41223A615200CACCB8 /* DesigningFile.swift */,
 			);
-			path = PottyBreakUITests;
+			path = "Designing File";
+			sourceTree = "<group>";
+		};
+		5286B70A22547299001A17E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				521FA54D225B0F520073945F /* UserManager.swift */,
+				921B151B2254BA5A0047A11D /* Chat.swift */,
+				921B15192254BA570047A11D /* Message.swift */,
+				921B151A2254BA580047A11D /* User.swift */,
+				921B2AE522571D410039953E /* Rating.swift */,
+				5286B70B22547299001A17E9 /* Toilet.swift */,
+				5286B70C22547299001A17E9 /* GoogleDataFetcher.swift */,
+				921B2AE72257627E0039953E /* UserCurrentLocation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		921B152D2254DF870047A11D /* Addition */ = {
+			isa = PBXGroup;
+			children = (
+				921B152F2254DFBA0047A11D /* Array+toDictionary.swift */,
+				921B152E2254DFB70047A11D /* UIViewController+childViewController.swift */,
+			);
+			path = Addition;
+			sourceTree = "<group>";
+		};
+		9229AF6A229FEEFA002115A5 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				92E26FA322A1441000B0A0CB /* Toilet Target */,
+				9229AF6B229FEF09002115A5 /* WipeAway */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		9229AF6B229FEF09002115A5 /* WipeAway */ = {
+			isa = PBXGroup;
+			children = (
+				9229AF73229FF0A3002115A5 /* GalleryVC.swift */,
+				9229AF70229FF0A0002115A5 /* GameMainVC.swift */,
+				9229AF6E229FF09E002115A5 /* GamePlayVC.swift */,
+				9229AF6F229FF09F002115A5 /* GameStartVC.swift */,
+				9229AF72229FF0A2002115A5 /* Pencil.swift */,
+				9229AF74229FF0A4002115A5 /* SettingsViewController.swift */,
+				9229AF75229FF0A5002115A5 /* SubmitPopVC.swift */,
+				9229AF71229FF0A1002115A5 /* ViewController.swift */,
+				92E126E622A52493004A2D8E /* ImageVC.swift */,
+				9229AF6C229FEF2C002115A5 /* Assets.xcassets */,
+			);
+			path = WipeAway;
+			sourceTree = "<group>";
+		};
+		92E26FA322A1441000B0A0CB /* Toilet Target */ = {
+			isa = PBXGroup;
+			children = (
+				92E26FA822A1461700B0A0CB /* Actions.sks */,
+				92E26FA722A1461600B0A0CB /* GameScene.sks */,
+				92E26FA622A1461500B0A0CB /* GameScene.swift */,
+				92E26FA922A1461900B0A0CB /* GameViewController.swift */,
+				92E26FA422A144D700B0A0CB /* Assets.xcassets */,
+			);
+			path = "Toilet Target";
+			sourceTree = "<group>";
+		};
+		EB79B6B148B8926CF32BF884 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7EA8D529A0B6B39FBBB1A2A /* Pods_PottyBreak.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +335,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 526F9A36223A600300CACCB8 /* Build configuration list for PBXNativeTarget "PottyBreak" */;
 			buildPhases = (
+				DA18C4B4A5EC86C2AC4CD1D7 /* [CP] Check Pods Manifest.lock */,
 				526F9A0A223A600100CACCB8 /* Sources */,
 				526F9A0B223A600100CACCB8 /* Frameworks */,
 				526F9A0C223A600100CACCB8 /* Resources */,
+				ACC8EB62207B53B72B207BDB /* [CP] Embed Pods Frameworks */,
+				C2B5D72E8D2BD0F6F70221CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +399,14 @@
 				TargetAttributes = {
 					526F9A0D223A600100CACCB8 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					526F9A21223A600300CACCB8 = {
 						CreatedOnToolsVersion = 10.1;
@@ -230,8 +444,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				526F9A1C223A600300CACCB8 /* LaunchScreen.storyboard in Resources */,
+				92E26FA222A12DE200B0A0CB /* GoogleService-Info.plist in Resources */,
+				9222EE97229D3CE200FDF153 /* ArticleHeader.xib in Resources */,
 				526F9A19223A600300CACCB8 /* Assets.xcassets in Resources */,
+				92E26FAC22A1461900B0A0CB /* Actions.sks in Resources */,
 				526F9A17223A600100CACCB8 /* Main.storyboard in Resources */,
+				9237F128229E5D6900A8BBD5 /* daily-deuce-title@3x.png in Resources */,
+				92E26FAB22A1461900B0A0CB /* GameScene.sks in Resources */,
+				521FA596225DF6700073945F /* ToiletSound.mp3 in Resources */,
+				92E26FA522A144D900B0A0CB /* Assets.xcassets in Resources */,
+				9229AF6D229FEF2E002115A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +473,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ACC8EB62207B53B72B207BDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PottyBreak/Pods-PottyBreak-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PottyBreak/Pods-PottyBreak-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PottyBreak/Pods-PottyBreak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B5D72E8D2BD0F6F70221CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PottyBreak/Pods-PottyBreak-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PottyBreak/Pods-PottyBreak-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PottyBreak/Pods-PottyBreak-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA18C4B4A5EC86C2AC4CD1D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PottyBreak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		526F9A0A223A600100CACCB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526F9A14223A600100CACCB8 /* ViewController.swift in Sources */,
+				9229AF7D229FF0A5002115A5 /* SubmitPopVC.swift in Sources */,
+				526F9A42223A615200CACCB8 /* DesigningFile.swift in Sources */,
+				92E126E722A52494004A2D8E /* ImageVC.swift in Sources */,
+				9229AF77229FF0A5002115A5 /* GameStartVC.swift in Sources */,
+				921B15302254DFBA0047A11D /* UIViewController+childViewController.swift in Sources */,
+				521FA550225B0F630073945F /* WashRoomDiatailVC.swift in Sources */,
+				921B152A2254BDB60047A11D /* UserDetailsTableViewCell.swift in Sources */,
+				521FA558225C66D50073945F /* ShowActivityAnimation.swift in Sources */,
+				92CC3EDE2256008300A981C1 /* SwiftyJSON.swift in Sources */,
+				521FA552225B0F6B0073945F /* RateABathroomVC.swift in Sources */,
+				9229AF7A229FF0A5002115A5 /* Pencil.swift in Sources */,
+				92E45110229D0F7E00D465D7 /* ArticleVC.swift in Sources */,
+				5286B70E22547299001A17E9 /* GoogleDataFetcher.swift in Sources */,
+				921B151C2254BA5B0047A11D /* Message.swift in Sources */,
+				921B2AEC2257811E0039953E /* ViewArticleDetail.swift in Sources */,
+				921B2AE322571C010039953E /* RefineSearchVC.swift in Sources */,
+				5286B70D22547299001A17E9 /* Toilet.swift in Sources */,
+				9229AF78229FF0A5002115A5 /* GameMainVC.swift in Sources */,
+				5293F139229BB7940019BA95 /* WashRoomImageVC.swift in Sources */,
+				921B151E2254BA5B0047A11D /* Chat.swift in Sources */,
 				526F9A12223A600100CACCB8 /* AppDelegate.swift in Sources */,
+				921B15272254BD570047A11D /* MyChatViewController.swift in Sources */,
+				526F9A48223A6AC600CACCB8 /* CustomLounchScreenVC.swift in Sources */,
+				921B151D2254BA5B0047A11D /* User.swift in Sources */,
+				926BEDFF2294D87F0052DD51 /* PopUpFactVC.swift in Sources */,
+				9229AF7C229FF0A5002115A5 /* SettingsViewController.swift in Sources */,
+				521FA556225C56390073945F /* StartChatWithFriend.swift in Sources */,
+				526F9A44223A616D00CACCB8 /* LoginVC.swift in Sources */,
+				521FA54E225B0F520073945F /* UserManager.swift in Sources */,
+				92E26FAD22A1461900B0A0CB /* GameViewController.swift in Sources */,
+				921B2AEA22576C320039953E /* HomeScreenVC.swift in Sources */,
+				921B15312254DFBA0047A11D /* Array+toDictionary.swift in Sources */,
+				92E26FAA22A1461900B0A0CB /* GameScene.swift in Sources */,
+				9229AF76229FF0A5002115A5 /* GamePlayVC.swift in Sources */,
+				9230AEF1228434D800936DB7 /* PopUpRatingVC.swift in Sources */,
+				921B2AE622571D420039953E /* Rating.swift in Sources */,
+				9229AF79229FF0A5002115A5 /* ViewController.swift in Sources */,
+				521FA594225CA06F0073945F /* AllContactsVC.swift in Sources */,
+				921B15282254BD570047A11D /* ChatTableViewController.swift in Sources */,
+				921B2AE122571C010039953E /* SearchBathRoomVC.swift in Sources */,
+				92CC3EDA2255C9B800A981C1 /* GetDirectionsVC.swift in Sources */,
+				921B2AE82257627E0039953E /* UserCurrentLocation.swift in Sources */,
+				9229AF7B229FF0A5002115A5 /* GalleryVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +587,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526F9A27223A600300CACCB8 /* PottyBreakTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +594,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526F9A32223A600300CACCB8 /* PottyBreakUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,34 +750,44 @@
 		};
 		526F9A37223A600300CACCB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11F037FBC7E34755B9EB2689 /* Pods-PottyBreak.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PottyBreak/PottyBreak.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6264CCD55;
 				INFOPLIST_FILE = PottyBreak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = apple.PottyBreak;
+				PRODUCT_BUNDLE_IDENTIFIER = PottyBrakeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		526F9A38223A600300CACCB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242B6EA39AEB65CBB455BD38 /* Pods-PottyBreak.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PottyBreak/PottyBreak.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6264CCD55;
 				INFOPLIST_FILE = PottyBreak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = apple.PottyBreak;
+				PRODUCT_BUNDLE_IDENTIFIER = PottyBrakeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

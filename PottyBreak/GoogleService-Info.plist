@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1012083482848-8igld1ecntpelsbkk2u71001jfmtqsir.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1012083482848-8igld1ecntpelsbkk2u71001jfmtqsir</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1012083482848-38gpnlscmlvkst9v8vkll2v1m46j46g8.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA8TriTRfc9KxtvCJ1i8jS-DkMmVP3ieOU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1012083482848</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>PottyBrakeTest</string>
+	<key>PROJECT_ID</key>
+	<string>pottybrake-eaec5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pottybrake-eaec5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1012083482848:ios:cbdeb122dd80f598</string>
+	<key>DATABASE_URL</key>
+	<string>https://pottybrake-eaec5.firebaseio.com</string>
+</dict>
+</plist>
